@@ -43,6 +43,7 @@ def captureFrame(vid_path):
     frameRate = vid_obj.get(5)
     count = 0
     while (vid_obj.isOpened()):
+       #The following line is capturing the frames at 1 frame/second. You can change it to whatever you like. 
         frameId = vid_obj.get(1)
         ret, frame = vid_obj.read()
 
