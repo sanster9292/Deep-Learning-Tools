@@ -1,10 +1,7 @@
 """
-Purpose: Taking a video file and saving each of the video as images, capturing
-         1 frame/secondself.
+Purpose: Taking a video file and saving each of frame of the video as an image, capturing it at 1 frame/secondself.
 
 Arguments: Takes in the path to the video being uploaded.
-
-Purpose: Uses OpenCV library to read in the video and save .jpg files of the video frames every 1 second.
 
 Notes:
     This script will take the name of the video, create a new folder on the same folder level as the video
